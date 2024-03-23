@@ -1,0 +1,12 @@
+.banner{
+    background-image: url('https://res.cloudinary.com/dayr4cjrv/image/upload/v1711049299/img/dxbpb2ddxizvtpruzq6c.jpg');
+    height: 400px;
+    background-size: cover;
+    background-position: center -100;
+}
+@media(max-width: 576px){
+    .banner{
+        height: 150px;
+        background-position: center -50;
+    }
+}
